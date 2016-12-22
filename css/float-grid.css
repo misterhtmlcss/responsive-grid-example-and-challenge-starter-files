@@ -54,21 +54,21 @@
 @media (min-width: 640px) {
   /* 3 columns, 3/12 in % */
   .col-3 {
-    min-width: 25%;
+    width: 25%;
   }
 
   /* 4 columns */
   .col-4 {
-    min-width: calc(100%/3);
+    width: calc(100%/3);
   }
 
   /* 6 columns */
   .col-6 {
-    min-width: calc(100%/2);
+    width: calc(100%/2);
   }
 
   /* 12 columns */
   .col-12 {
-    min-width: 100%;
+    width: 100%;
   }
 }
